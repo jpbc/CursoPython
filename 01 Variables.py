@@ -8,7 +8,30 @@ print (d,e,f)
 numero =10
 numero_2 = 10
 #sumar Variables
-resultado = numero+numero_2
-print(numero_2)
-print(numero)
-print(resultado)
+#resultado = numero+numero_2
+
+#Restar Variables
+#resultado = numero-numero_2
+
+
+
+#Multiplicar Variables
+#resultado = numero*numero_2
+
+
+#Dividir Variables
+#resultado = numero / numero_2
+
+
+#Modulo Variables
+#resultado = numero % numero_2
+
+
+#Exponente Variables
+#resultado = numero ** numero_2
+
+
+#Cociente Variables
+resultado = numero // numero_2
+
+print (resultado)

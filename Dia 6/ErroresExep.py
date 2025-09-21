@@ -7,8 +7,10 @@ def multiplicar (num1,num2):
 def dividir (num1,num2):
     try:
         return num1/num2
+    # Se captura el error y se devuelve un mensaje
     except ZeroDivisionError:
         print('No se puede dividir entre 0')
+        # Se le indica al usuario que la operacion no es valida
         return 'Operacion no Valida'
 
 op1 = int(input('Introduce el primer valor : '))

@@ -1,0 +1,19 @@
+def saludar (): # declaramos nuestra funcion
+    print ("Hola Mundo") # Cuerpo de la funcion
+
+saludar()
+
+def sumar():
+    a = 6
+    b = 25
+    c = 30
+    print ('El resultado de la suma es ', a + b + c)
+# llamado de la función
+sumar()
+
+def restar ():
+    a = 6
+    b = 25
+    print('El resultado de la resta es ', b - a)
+
+restar()

@@ -22,7 +22,7 @@ miPersona.DatosPersonales()
 class Empleado(Persona):
     def DatosEmpleado (self, vacaciones, salario):
         print (f'Sus dias de vacaciones son: {vacaciones}')
-        print (f'Su salario es: {salario: ,.2f}')
+        print (f'Su salario es: {salario: ,.2f}') # Se formatea salida con separador de mil y 2 decimales
 miEmpleado = Empleado('Valery',20,'Borrero', 'Femenino')
 miEmpleado.DatosPersonales()
 miEmpleado.DatosEmpleado('30 dias', 600000)
